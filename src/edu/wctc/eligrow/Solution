@@ -1,0 +1,2 @@
+I separated actions regarding a car and regarding a person by placing the person actions in an interface called
+IOrganicActions. Person now implements IOrganicActions. I removed the override for unused methods in car and person.
